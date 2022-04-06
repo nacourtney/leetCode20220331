@@ -40,3 +40,4 @@ namespace SearchInASortedArrayOfUnknownSize_lc_702
         }
     }
 }
+
