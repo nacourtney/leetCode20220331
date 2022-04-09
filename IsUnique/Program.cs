@@ -26,10 +26,12 @@ namespace IsUnique
         {
             value = value.ToLower();
 
+            // Check each value to see if there is a double
             for(int i = 0; i < value.Length; i++)
             {
                 for(int j = i + 1; j < value.Length; j++)
                 {
+                    // If a double letter is identified it does not have all unique letters
                     if(value[i] == value[j])
                     {
                         return false;
@@ -39,6 +41,7 @@ namespace IsUnique
             return true;
         }
 
+        // Add each letter to a dictionary. If a value increments to 2, all letters are not unique. 
         public static bool theShortWay(string value)
         {
             value = value.ToLower();
