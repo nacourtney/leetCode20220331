@@ -9,13 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsUnique", "IsUnique\IsUniq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckPermutation", "CheckPermutation\CheckPermutation.csproj", "{97FB85E9-CE98-4F4F-97BF-C705B4ADF13A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLify", "URLify\URLify.csproj", "{D980674C-8FB6-4825-B75B-41DF8CF8D038}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "URLify", "URLify\URLify.csproj", "{D980674C-8FB6-4825-B75B-41DF8CF8D038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromePermutation", "PalindromePermutation\PalindromePermutation.csproj", "{BA68BEA7-2B93-4833-B495-7CF7952308F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromePermutation", "PalindromePermutation\PalindromePermutation.csproj", "{BA68BEA7-2B93-4833-B495-7CF7952308F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneAway", "OneAway\OneAway.csproj", "{432FFC3B-94E2-4CCE-9637-F40368DB58D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneAway", "OneAway\OneAway.csproj", "{432FFC3B-94E2-4CCE-9637-F40368DB58D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringCompression", "StringCompression\StringCompression.csproj", "{FEECE892-455F-40A4-BDAF-79FB8F00A81C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringCompression", "StringCompression\StringCompression.csproj", "{FEECE892-455F-40A4-BDAF-79FB8F00A81C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate2DArray", "Rotate2DArray\Rotate2DArray.csproj", "{2AB5AD92-233A-4082-8041-841522728C1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContinuousSubarraySum", "ContinuousSubarraySum\ContinuousSubarraySum.csproj", "{4C0E36DA-E802-4605-B005-033C0B7D8448}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSortedArray", "MergeSortedArray\MergeSortedArray.csproj", "{88D2626E-2BD1-431C-936D-D3D618901AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "twoSum", "twoSum\twoSum.csproj", "{79F7EA25-D898-4709-AEFD-4A449C4BF778}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{FEECE892-455F-40A4-BDAF-79FB8F00A81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEECE892-455F-40A4-BDAF-79FB8F00A81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEECE892-455F-40A4-BDAF-79FB8F00A81C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB5AD92-233A-4082-8041-841522728C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB5AD92-233A-4082-8041-841522728C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB5AD92-233A-4082-8041-841522728C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB5AD92-233A-4082-8041-841522728C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0E36DA-E802-4605-B005-033C0B7D8448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0E36DA-E802-4605-B005-033C0B7D8448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0E36DA-E802-4605-B005-033C0B7D8448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0E36DA-E802-4605-B005-033C0B7D8448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D2626E-2BD1-431C-936D-D3D618901AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D2626E-2BD1-431C-936D-D3D618901AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D2626E-2BD1-431C-936D-D3D618901AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D2626E-2BD1-431C-936D-D3D618901AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F7EA25-D898-4709-AEFD-4A449C4BF778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F7EA25-D898-4709-AEFD-4A449C4BF778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F7EA25-D898-4709-AEFD-4A449C4BF778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F7EA25-D898-4709-AEFD-4A449C4BF778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
